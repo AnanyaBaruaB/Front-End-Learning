@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="5. results.html" method="get">
+      <h2>Registration Form</h2>
+      <div>
+        <label for="fullname">Full Name: </label>
+        <input type="text" name="fullname" id="fullname" required />
+      </div>
+      <br />
+      <div>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="Email" id="email" required
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="pass">Password:</label>
+        <input type="password" name="Pass" id="pass" required />
+      </div>
+      <br />
+      <div>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="date of birth" id="dob" required />
+      </div>
+      <br />
+      <div>
+        <label for="photo">Choose your photo</label>
+        <input type="file" name="photo" id="photo" />
+      </div>
+
+      <br />
+      <div>
+        <label for="gender">Select your gender:</label>
+        <input type="radio" name="gender" id="gender" value="male" />Male
+        <input type="radio" name="gender" id="gender" value="female" />Female
+        <input type="radio" name="gender" id="gender" value="Oter" />Other
+        <input type="radio" name="gender" id="gender" value="NoMention" />Don't
+        want to mention
+      </div>
+      <br />
+      <div>
+        <label for="religion">Religion:</label>
+        <input type="checkbox" name="religion" id="religion" value="islam" />
+        Islam
+        <input type="checkbox" name="religion" id="religion" value="hindu" />
+        Hindu
+        <input type="checkbox" name="religion" id="religion" value="buddhist" />
+        Buddhist
+        <input
+          type="checkbox"
+          name="religion"
+          id="religion"
+          value="Christian"
+        />
+        Christian
+        <input type="checkbox" name="religion" id="religion" value="Other" />
+        Other
+      </div>
+      <br />
+      <div>
+        <label for="inst">Institute</label>
+        <input type="text" name="inst" id="inst" required />
+      </div>
+      <br /><!Drop down menu>
+      <div>
+        <label for="department">Department:</label>
+        <select name="department" id="department">
+          <option value="cse">CSE</option>
+          <option value="eee">EEE</option>
+          <option value="tex">Textile</option>
+          <option value="math">Mathmatics</option>
+          <option value="archi">Architecture</option>
+          <option value="eng">English</option>
+          <option value="bba">BBA</option>
+          <option value="llb">LLB</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="message">Message:</label><br />
+        <textarea name="message" id="message" cols="80" rows="10"></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Register" />
+        <input type="reset" value="Clear" />
+      </div>
+    </form>
+  </body>
+</html>

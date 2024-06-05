@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Making</title>
+    <style>
+      table {
+        width: 300px;
+        height: 200px;
+        border: 2px solid black;
+        border-spacing: 5px; /*cell spcaing: boarder distance*/
+      }
+      td,
+      th {
+        border: 1px solid black;
+        padding: 10px; /*cellpadding*/
+      }
+      tr {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table align="center">
+      <caption>
+        <h2>Student Details</h2>
+      </caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>NAME</th>
+          <th>Depertment</th>
+          <th>CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>010</td>
+          <td>Ananya Barua</td>
+          <td>CSE</td>
+          <td>3.79</td>
+        </tr>
+        <tr>
+          <td>020</td>
+          <td>Arnab Barua</td>
+          <td>CSE</td>
+          <td>3.71</td>
+        </tr>
+        <tr>
+          <td>030</td>
+          <td>Md Al Araf</td>
+          <td>EEE</td>
+          <td>3.60</td>
+        </tr>
+        <tr>
+          <td>040</td>
+          <td>Asfia Rahman</td>
+          <td>Textile</td>
+          <td>3.50</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+    <!colspane use>
+    <table align="center" border="2" bgcolor="beige">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th colspan="2">Telephone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ananya Barya</td>
+          <td>01548969726</td>
+          <td>01365874596</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+    <!rowspan use>
+    <table align="center">
+      <thead>
+        <tr>
+          <th rowspan="3">Students</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+        </tr>
+        <tr>
+          <td>Ananta</td>
+          <td>Jalil</td>
+        </tr>
+        <tr>
+          <td>Imam</td>
+          <td>Shah</td>
+        </tr>
+      </thead>
+    </table>
+
+    <br />
+
+    <table align="center">
+      <caption>
+        <h2>Student Details</h2>
+      </caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>NAME</th>
+          <th>Depertment</th>
+          <th>CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>010</td>
+          <td>Ananya Barua</td>
+          <td>CSE</td>
+          <td>3.79</td>
+        </tr>
+        <tr>
+          <td>020</td>
+          <td>Arnab Barua</td>
+          <td>CSE</td>
+          <td rowspan="2">3.71</td>
+        </tr>
+        <tr>
+          <td>030</td>
+          <td>Md Al Araf</td>
+          <td>EEE</td>
+          s
+        </tr>
+        <tr>
+          <td>040</td>
+          <td>Asfia Rahman</td>
+          <td>Textile</td>
+          <td>3.50</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><a
+      href="file:///c%3A/Users/user/OneDrive/Desktop/Front%20End/1.%20Html%20Intro/First.html"
+      target="_blank"
+      ><b> -PAGE 3: Table-</b></a
+    >
+  </body>
+</html>

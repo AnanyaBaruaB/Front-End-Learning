@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        width: 300px;
+        height: 200px;
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        padding: 10px; /*cellpadding*/
+      }
+      tr {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table align="center">
+      <caption>
+        <h2>Student Details</h2>
+      </caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>NAME</th>
+          <th>Depertment</th>
+          <th>CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>010</td>
+          <td>Ananya Barua</td>
+          <td>CSE</td>
+          <td>3.79</td>
+        </tr>
+        <tr>
+          <td>020</td>
+          <td>Arnab Barua</td>
+          <td>CSE</td>
+          <td rowspan="2">3.71</td>
+        </tr>
+        <tr>
+          <td>030</td>
+          <td>Md Al Araf</td>
+          <td>EEE</td>
+          s
+        </tr>
+        <tr>
+          <td>040</td>
+          <td>Asfia Rahman</td>
+          <td>Textile</td>
+          <td>3.50</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+    <table align="center">
+      <caption>
+        <h2>Student Info</h2>
+      </caption>
+
+      <colgroup>
+        <col span="3" style="background-color: blanchedalmond" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">NAME</th>
+          <th scope="col">Depertment</th>
+          <th scope="col">CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">010</td>
+          <td>Ananya Barua</td>
+          <td>CSE</td>
+          <td>3.79</td>
+        </tr>
+        <tr>
+          <td>020</td>
+          <td>Arnab Barua</td>
+          <td>CSE</td>
+          <td>3.71</td>
+        </tr>
+        <tr>
+          <td>030</td>
+          <td>Md Al Araf</td>
+          <td>EEE</td>
+          <td>3.51</td>
+        </tr>
+        <tr>
+          <td>040</td>
+          <td>Asfia Rahman</td>
+          <td>Textile</td>
+          <td>3.50</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+    <h2>Adding Audio</h2>
+    <audio
+      controls
+      src="F:\Music Tracks\05 - Aise Kyun (feat_ Nikhita Gandhi & Raghav Chaitanya).mp3"
+      type="audio/mpeg"
+    ></audio>
+    <br />
+    <h2>Adding video</h2>
+    <video
+      height="300"
+      width="400"
+      controls
+      src="F:\GEHTHBl85Ag7_tECAP3pb6WJr5smbmdjAAAF.mp4"
+      type="video/mp4"
+    ></video>
+  </body>
+</html>
